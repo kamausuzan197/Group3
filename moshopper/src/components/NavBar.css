@@ -1,0 +1,55 @@
+.navbarlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* margin-top: -3.8em;
+ margin-left: 8rem; */
+
+}
+ 
+
+
+.header {
+    text-transform: uppercase;
+	background: linear-gradient(to right, #d03030 0%, #e88d38 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    justify-content: flex-start;
+}
+
+.searchbar input{
+    width: 50vw;
+    justify-content: center;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    background: rgb(245, 242, 242);
+
+}
+
+.links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.links ul li{
+    margin: 0rem 1rem;
+   font-size: large;
+   padding: 5x;
+border-radius: 5px;
+}
+
+.links ul li:hover{
+   background-color: red;
+
+}
